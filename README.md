@@ -1,0 +1,117 @@
+# ![FENGSim](image/image1.svg)
+
+The FENGSim project is more than open source; it's a bold declaration of freedom. It champions the brave, persistent, and innovative spirit that breaks boundaries. Too many engineers and researchers see their potential stifled by unequal resource distribution. FENGSim shatters these barriers, unleashing that potential by providing the freedom and support for all to build, explore, and create. Join us in this mission.
+
+FENGSim serves as a software development kit (SDK) for high-fidelity numerical simulation and adaptive processing, integrating a variety of mathematical libraries such as computational geometry, computer algebra, numerical methods, numerical linear algebra, computer graphics, image processing, probability and statistics, optimization, and artificial intelligence. Central to the project are multi-x couplers tailored for intricate applications. It also incorporates the CAX software framework along with practical examples.
+
+Moreover, FENGSim offers tools for managing library dependencies, package management, and continuous integration and continuous deployment (CICD) processes, which include compiling, code merging, version control, testing, and deployment. The project will also feature interfaces for the integration of machinery and sensors, covering drivers, communication, and control applications. Additionally, FENGSim includes a large language model (LLM) assistant, developed using open-source code and classical literature, to enhance user experience and support.
+
+To install FENGSim on Ubuntu 24.04:
+
+```shell
+	git clone https://github.com/OpenDigitalTwin-Dev/FENGSim.git
+	cd FENGSim
+	./install
+```
+To launch the Qt project for FENGSim:
+
+```shell
+	cd FENGSim
+	./qtcreator
+```
+<div align="center">
+<img decoding="async" src="image/list.jpg" width="1800">
+</div>
+
+There exist various solvers designed for nonlinear solid mechanics, computational fluid dynamics, computational electrodynamics, differential algebraic equations, particle methods, numerical linear algebra, and probability and statistics. These solvers can be obtained from Git by following the provided instructions.
+
+```shell
+	cd FENGSim
+	git submodule update --init
+```
+
+```shell
+	cd FENGSim/toolkit
+	git clone https://github.com/OpenDigitalTwin-Dev/MultiX.git
+```
+
+Consequently, all the commands and the README.md files will be revised to be the rules and the notebooks in the Warp AI terminal.
+
+This is really interesting. Since Warp operates as a terminal, it can use commands like grep and find to search for particular files, such as README.md, and also look for specific content, like installation instructions, within those files. The outcomes can then be input into the AI. As a result, our SDK is a great data source for Warp.
+
+We will utilize Warp alongside our SDK to accomplish the following tasks:
+1. Manage the SDK
+2. Acquire background knowledge
+3. Develop code
+4. Enhance automation for CAD design, model simplification, structural mesh generation, path planning, and inverse modeling.
+
+<div align="center">
+<img decoding="async" src="image/warp.png" width="1800">
+</div>
+
+# [Docs](https://fengsim-docs.readthedocs.io)
+
+
+# Solutions
+
+## General
+
+<div align="center">
+<img decoding="async" src="image/blade_1.jpg" width="1800">
+</div>
+<div align="center">
+<img decoding="async" src="image/blade_2.jpg" width="1800">
+</div>
+<div align="center">
+<img decoding="async" src="image/blade_3.jpg" width="1800">
+</div>
+<div align="center">
+<img decoding="async" src="image/blade_4.jpg" width="1800">
+</div>
+
+## Additive Manufacturing
+
+## Composite Materials
+
+## Adaptive Processing
+
+### Path Planning
+
+<div align="center">
+<img decoding="async" src="image/ap_1.jpg" width="1800">
+</div>
+<div align="center">
+<img decoding="async" src="image/ap_2.jpg" width="1800">
+</div>
+<div align="center">
+<img decoding="async" src="image/ap_3.jpg" width="1800">
+</div>
+
+### Robotics
+
+<div align="center">
+<img decoding="async" src="image/ur3.jpg" width="1800">
+</div>
+
+### Metrology
+
+<div align="center">
+<img decoding="async" src="image/8.jpg" width="1800">
+</div>
+<div align="center">
+<img decoding="async" src="image/9.jpg" width="1800">
+</div>
+<div align="center">
+<img decoding="async" src="image/10.jpg" width="1800">
+</div>
+<div align="center">
+<img decoding="async" src="image/meas1.jpg" width="1800">
+</div>
+<div align="center">
+<img decoding="async" src="image/gdt/1.jpg" width="1800">
+</div>
+
+# QQ
+<div align="center">
+<img decoding="async" src="image/qq/1.jpg" width="300">
+</div>
